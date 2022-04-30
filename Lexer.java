@@ -1,6 +1,3 @@
-//Stephanie Mayberry
-//Ryan Scott
-
 package parser;
 
 import java.util.*; 
@@ -173,7 +170,7 @@ public class Lexer {
             return false; 
         }
     }
-    public static void specialwordinword(String lexeme) { //printing special word if its directly after a identifier since I removed all spaces
+    public static void specialwordinword(String lexeme) {
         
         if (lexeme.contains("if") ) { System.out.println("IF"); }
         if (lexeme.contains("for") ) System.out.println("FOR");
